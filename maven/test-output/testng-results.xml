@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-09T16:38:04Z" name="Default suite" finished-at="2019-05-09T16:38:12Z" duration-ms="7904">
+  <suite started-at="2019-05-10T10:06:17Z" name="Default suite" finished-at="2019-05-10T10:06:34Z" duration-ms="16170">
     <groups>
     </groups>
-    <test started-at="2019-05-09T16:38:04Z" name="Default test" finished-at="2019-05-09T16:38:12Z" duration-ms="7904">
+    <test started-at="2019-05-10T10:06:17Z" name="Default test" finished-at="2019-05-10T10:06:34Z" duration-ms="16170">
       <class name="com.qa.testing.maven.Myfirst">
-        <test-method signature="m1()[pri:0, instance:com.qa.testing.maven.Myfirst@7770f470]" started-at="2019-05-09T22:08:04Z" name="m1" finished-at="2019-05-09T22:08:12Z" duration-ms="7870" status="PASS">
+        <test-method is-config="true" signature="m1()[pri:0, instance:com.qa.testing.maven.Myfirst@bccb269]" started-at="2019-05-10T15:36:17Z" name="m1" finished-at="2019-05-10T15:36:33Z" duration-ms="15246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="m3()[pri:0, instance:com.qa.testing.maven.Myfirst@bccb269]" started-at="2019-05-10T15:36:33Z" name="m3" finished-at="2019-05-10T15:36:34Z" duration-ms="900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
       </class> <!-- com.qa.testing.maven.Myfirst -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
