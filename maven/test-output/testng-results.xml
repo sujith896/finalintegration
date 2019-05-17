@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="0" passed="0" failed="0" skipped="0">
+<testng-results total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-10T10:06:17Z" name="Default suite" finished-at="2019-05-10T10:06:34Z" duration-ms="16170">
+  <suite started-at="2019-05-11T09:41:25Z" name="Default suite" finished-at="2019-05-11T09:41:25Z" duration-ms="47">
     <groups>
     </groups>
-    <test started-at="2019-05-10T10:06:17Z" name="Default test" finished-at="2019-05-10T10:06:34Z" duration-ms="16170">
+    <test started-at="2019-05-11T09:41:25Z" name="Default test" finished-at="2019-05-11T09:41:25Z" duration-ms="47">
       <class name="com.qa.testing.maven.Myfirst">
-        <test-method is-config="true" signature="m1()[pri:0, instance:com.qa.testing.maven.Myfirst@bccb269]" started-at="2019-05-10T15:36:17Z" name="m1" finished-at="2019-05-10T15:36:33Z" duration-ms="15246" status="PASS">
+        <test-method is-config="true" signature="m1()[pri:0, instance:com.qa.testing.maven.Myfirst@71e9ddb4]" started-at="2019-05-11T15:11:25Z" name="m1" finished-at="2019-05-11T15:11:25Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at framework.SupportedLibrary.loadPropertiesFile(SupportedLibrary.java:35)
+	at com.qa.testing.maven.Myfirst.m1(Myfirst.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="m3()[pri:0, instance:com.qa.testing.maven.Myfirst@bccb269]" started-at="2019-05-10T15:36:33Z" name="m3" finished-at="2019-05-10T15:36:34Z" duration-ms="900" status="PASS">
+        <test-method signature="m2()[pri:0, instance:com.qa.testing.maven.Myfirst@71e9ddb4]" started-at="2019-05-11T15:11:25Z" name="m2" finished-at="2019-05-11T15:11:25Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
+        </test-method> <!-- m2 -->
       </class> <!-- com.qa.testing.maven.Myfirst -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
